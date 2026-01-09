@@ -1,4 +1,4 @@
-NAME =	zombie
+NAME =	ref
 SRC =	main.cpp
 CXX = c++
 
