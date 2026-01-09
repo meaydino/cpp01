@@ -15,7 +15,6 @@ int main()
 	Weapon club = Weapon("crude spiked club");
 	HumanB jim("Jim");
 	jim.setWeapon(club);
-	std::cout << &club << std::endl;
 	jim.attack();
 	club.setType("some other type of club");
 	jim.attack();
