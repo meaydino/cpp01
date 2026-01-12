@@ -5,13 +5,13 @@ int main()
 	std::string *stringPTR = &brain;
 	std::string &stringREF = brain;
 
-	std::cout << &brain << std::endl;
-	std::cout << &stringREF << std::endl;
-	std::cout << stringPTR << std::endl;
+	std::cout << "brain:     " << &brain << std::endl;
+	std::cout << "stringPTR: "<< stringPTR << std::endl;
+	std::cout << "stringREF: "<< &stringREF << std::endl;
 
-	std::cout << brain << std::endl;
-	std::cout << *stringPTR << std::endl;
-	std::cout << stringREF << std::endl;
+	std::cout << "brain:     " << brain << std::endl;
+	std::cout << "stringPTR: "<< *stringPTR << std::endl;
+	std::cout << "stringRED: "<< stringREF << std::endl;
 
 	return(0);
 }
